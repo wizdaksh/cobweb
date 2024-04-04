@@ -1,0 +1,127 @@
+.menu-bar, .menu-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    padding: 2em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 5;
+}
+
+.menu-bar a, 
+.menu-open p {
+    color: #fff;
+    cursor: pointer;
+}
+
+.menu-close p {
+    color: #000;
+    cursor: pointer;
+}
+
+.menu-overlay {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    padding: 2em;
+    background: rgb(191, 191, 191);
+    z-index: 5;
+    display: flex;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 0%, 0% 0%);
+}
+
+.menu-close-icon {
+    flex: 2;
+    display: flex;
+    align-items: flex-end;
+    cursor: pointer;
+}
+
+.menu-copy {
+    flex: 4;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+
+.menu-preview {
+    flex: 4;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+
+.menu-overlay-bar {
+    justify-content: space-between;
+    display: flex;
+    position: absolute;
+    margin: auto;
+    top: 1em;
+    width: 100vw; /* Stretch the width to cover the entire screen */
+  }
+  
+  .menu-logo,
+  .menu-close {
+    position: relative;
+    /* Adjust top and left properties for individual positioning */
+  }
+  
+.menu-close {
+    right: 3em;
+}
+
+.menu-link-item {
+    width: max-content;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+}
+
+.menu-link-item-holder {
+    position: relative;   
+}
+
+.menu-link-item-holder a {
+    color: #000;
+    font-size: 80px;
+    font-weight: 400;
+    letter-spacing: -0.02em;
+    line-height: 90%;
+}
+
+.menu-info {
+    display: flex;
+    position: absolute;
+    bottom: 1em;
+    justify-content: space-between;
+    width: 50%;
+}
+
+.menu-close-icon p {
+    font-size: 100px;
+    position: absolute;
+    -webkit-text-stroke: 6px rgb(191, 191, 191);
+    line-height: 70%;
+    bottom: .25em;
+    left: .25em;
+}
+
+.menu-info-col {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;   
+    text-align: right;
+}
+
+
+.menu-link-item:hover, 
+.menu-close-icon p:hover, 
+.menu-logo:hover, 
+.menu-close:hover {
+    opacity: .5;
+}
+
