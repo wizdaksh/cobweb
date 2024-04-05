@@ -8,6 +8,7 @@ import "./menu.css";
 import {gsap} from "gsap";
 import {useGSAP} from "@gsap/react"
 
+
 const menuLinks = [
     {path: "/", label: "The Nest"}, 
     {path: "/expandyourweb", label: "Expand Your Web"},
@@ -59,7 +60,9 @@ useEffect(() => {
         <div className="menu-container" ref={container}>
             <div className="menu-bar">
                 <div className="menu-logo">
-                    <Link href="/">ReWeb</Link>
+                    <Link href="/" className='company-name'>
+                        <img src="images/spider.png" alt="ReWeb Logo" className="spider-logo"/>
+                    </Link>
                 </div>
                 <div className="menu-open" onClick={toggleMenu}>
                     <p>Menu</p>
@@ -68,8 +71,7 @@ useEffect(() => {
             <div className="menu-overlay">
                 <div className="menu-overlay-bar">
                     <div className="menu-logo">
-                        <Link href="/">ReWeb</Link>
-                        <img src={reweb-beta-app/src/app/spider.png}></img>
+                        <Link href="/" className='company-name'>ReWeb</Link>
                     </div>
                     <div className="menu-close" onClick={toggleMenu}>
                         <p>Close</p>
@@ -108,4 +110,4 @@ useEffect(() => {
     );
 };
 
-export default Menu;``
+export default Menu;

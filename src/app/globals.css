@@ -29,7 +29,7 @@ a, p {
 }
 
 .page-content {
-    background: url("./abstract.jpg") no-repeat 50% 50%;
+    background: url("/images/abstract.jpg") no-repeat 50% 50%;
     background-size: cover;
 }
 
