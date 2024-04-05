@@ -125,3 +125,12 @@
     opacity: .5;
 }
 
+.company-name {
+    margin-top: auto;
+    text-align: center;
+}
+
+.spider-logo {
+    filter: invert();
+    height: 4em;
+}
