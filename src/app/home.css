@@ -1,6 +1,5 @@
+
 .landing-hook {
-    font-family: 'Vonique 92';
-    src: url('/public/fonts/Vonique 92 Regular.otf') fortmat('opentype');
     font-size: 50px;
     position: absolute;
     text-align: left;

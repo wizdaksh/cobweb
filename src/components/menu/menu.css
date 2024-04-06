@@ -12,6 +12,8 @@
 
 .menu-bar a, 
 .menu-open p {
+    font-weight: bold;
+    padding-right: 2em;
     color: #fff;
     cursor: pointer;
 }
@@ -68,6 +70,7 @@
   .menu-logo,
   .menu-close {
     position: relative;
+
     /* Adjust top and left properties for individual positioning */
   }
   
@@ -77,7 +80,7 @@
 
 .menu-link-item {
     width: max-content;
-    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 80%, 0% 80%);
 }
 
 .menu-link-item-holder {
@@ -88,8 +91,8 @@
     color: #000;
     font-size: 80px;
     font-weight: 400;
-    letter-spacing: -0.02em;
-    line-height: 90%;
+    letter-spacing: -.02em;
+    line-height: 130%;
 }
 
 .menu-info {
@@ -133,4 +136,5 @@
 .spider-logo {
     filter: invert();
     height: 4em;
+    padding-left: 1em;
 }

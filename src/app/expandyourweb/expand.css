@@ -1,7 +1,12 @@
 .stuff {
     display: flex;
+    flex-direction: column;
 }
 
 .lorem { 
     color: white;
+    padding-top: 580px;
+    padding-left: 170px;
+    padding-right: 170px;
+    text-align: justify;
 }
