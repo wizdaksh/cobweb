@@ -1,4 +1,4 @@
-// File: C:\Users\daani\Documents\cobweb\src\app\thecluster\page.js
+// File: /Users/slay3r/cobweb/src/app/thecluster/page.js
 import * as entry from '../../../../src/app/thecluster/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

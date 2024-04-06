@@ -1,0 +1,16 @@
+.cluster-container {
+    position: absolute;
+    max-height: 30vw;
+    left: 10em;
+    top: 10em;
+}
+
+h2 {
+    font-size: 6vw;
+    color: white;
+}
+
+.spider-couple {
+    max-width: fit-content;
+    max-width: 50%;
+}

@@ -1,9 +1,7 @@
 {
-  "/not-found": "app/not-found.js",
   "/page": "app/page.js",
   "/expandyourweb/page": "app/expandyourweb/page.js",
   "/ourwebs/page": "app/ourwebs/page.js",
   "/engage/page": "app/engage/page.js",
-  "/thecluster/page": "app/thecluster/page.js",
-  "/favicon.ico/route": "app/favicon.ico/route.js"
+  "/thecluster/page": "app/thecluster/page.js"
 }
