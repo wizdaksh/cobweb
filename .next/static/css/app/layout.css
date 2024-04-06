@@ -1,6 +1,80 @@
-/*!*******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[2].use[1]!./node_modules/next/dist/build/webpack/loaders/next-font-loader/index.js??ruleSet[1].rules[11].oneOf[2].use[2]!./node_modules/next/font/google/target.css?{"path":"src/app/layout.js","import":"Inter","arguments":[{"subsets":["latin"]}],"variableName":"inter"} ***!
-  \*******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*!*****************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[12].use[3]!./src/app/globals.css ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+}
+
+body {
+    background: #000;
+}
+
+a,p.menu-info {
+    color: #000000;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 100%;
+}
+
+.page-content {
+    width: 100%;
+    height: 100%;
+    min-height: 100vh;
+    padding: 6em 2em;
+    z-index: 3;
+}
+
+.page-content {
+    background: url("/images/abstract.jpg") no-repeat 50% 50%;
+    background-size: cover;
+}
+
+video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+}
+h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 10vw;
+    font-weight: 400;
+    letter-spacing: -0.04em;
+    color: #fff;
+}
+
+h1 sup {
+    position: relative;
+    top: -20px;
+    left: 10px;
+    font-size: 1.5vw;
+    letter-spacing: 0;
+}
+
+@media(max-width: 900px) {
+    .page-content h1 {
+        font-size: 10vw;
+    }
+    h1 sup {
+        font-size: 4vw;
+    }
+}
+/*!*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[2].use[1]!./node_modules/next/dist/build/webpack/loaders/next-font-loader/index.js??ruleSet[1].rules[11].oneOf[2].use[2]!./node_modules/next/font/google/target.css?{"path":"src\\app\\layout.js","import":"Inter","arguments":[{"subsets":["latin"]}],"variableName":"inter"} ***!
+  \*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /* cyrillic-ext */
 @font-face {
   font-family: '__Inter_aaf875';
@@ -67,70 +141,6 @@
 }.__className_aaf875 {font-family: '__Inter_aaf875', '__Inter_Fallback_aaf875';font-style: normal
 }
 
-/*!*****************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[12].use[3]!./src/app/globals.css ***!
-  \*****************************************************************************************************************************************************************************************************************************************************************/
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    -webkit-font-smoothing: antialiased;
-}
-
-body {
-    font-family: verdana;
-    background: #000;
-}
-
-a,p.menu-info {
-    color: #000000;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-size: 14px;
-    font-weight: 500;
-    line-height: 100%;
-}
-
-.page-content {
-    width: 100%;
-    height: 100%;
-    min-height: 100vh;
-    padding: 6em 2em;
-    z-index: 3;
-}
-
-.page-content {
-    background: url("/images/abstract.jpg") no-repeat 50% 50%;
-    background-size: cover;
-}
-
-h1 {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 5vw;
-    font-weight: 400;
-    letter-spacing: -0.04em;
-    color: #fff;
-}
-
-h1 sup {
-    position: relative;
-    top: -20px;
-    left: 10px;
-    font-size: 1.5vw;
-    letter-spacing: 0;
-}
-
-@media(max-width: 900px) {
-    .page-content h1 {
-        font-size: 10vw;
-    }
-    h1 sup {
-        font-size: 4vw;
-    }
-}
 /*!**************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[12].use[3]!./src/components/menu/menu.css ***!
   \**************************************************************************************************************************************************************************************************************************************************************************/
@@ -148,6 +158,8 @@ h1 sup {
 
 .menu-bar a, 
 .menu-open p {
+    font-weight: bold;
+    padding-right: 2em;
     color: #fff;
     cursor: pointer;
 }
@@ -205,6 +217,7 @@ h1 sup {
   .menu-logo,
   .menu-close {
     position: relative;
+
     /* Adjust top and left properties for individual positioning */
   }
   
@@ -214,8 +227,8 @@ h1 sup {
 
 .menu-link-item {
     width: max-content;
-    -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
-            clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 80%, 0% 80%);
+            clip-path: polygon(0 0, 100% 0, 100% 80%, 0% 80%);
 }
 
 .menu-link-item-holder {
@@ -226,8 +239,8 @@ h1 sup {
     color: #000;
     font-size: 80px;
     font-weight: 400;
-    letter-spacing: -0.02em;
-    line-height: 90%;
+    letter-spacing: -.02em;
+    line-height: 130%;
 }
 
 .menu-info {
@@ -271,4 +284,5 @@ h1 sup {
 .spider-logo {
     filter: invert();
     height: 4em;
+    padding-left: 1em;
 }
