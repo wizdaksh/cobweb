@@ -1,16 +1,31 @@
 {
   "pages": {
+    "/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/page.css",
+      "static/chunks/app/page.js"
+    ],
     "/layout": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/css/app/layout.css",
       "static/chunks/app/layout.js"
     ],
-    "/page": [
+    "/thecluster/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/css/app/page.css",
-      "static/chunks/app/page.js"
+      "static/chunks/app/thecluster/page.js"
+    ],
+    "/engage/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/engage/page.js"
+    ],
+    "/ourwebs/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/ourwebs/page.js"
     ],
     "/expandyourweb/page": [
       "static/chunks/webpack.js",
@@ -18,20 +33,10 @@
       "static/css/app/expandyourweb/page.css",
       "static/chunks/app/expandyourweb/page.js"
     ],
-    "/ourwebs/page": [
+    "/not-found": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/ourwebs/page.js"
-    ],
-    "/engage/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/engage/page.js"
-    ],
-    "/thecluster/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/thecluster/page.js"
+      "static/chunks/app/not-found.js"
     ]
   }
 }
