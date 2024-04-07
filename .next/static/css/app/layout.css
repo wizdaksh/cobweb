@@ -157,9 +157,10 @@ h1 sup {
 }
 
 .menu-bar a, 
-.menu-open p {
+.menu-open {
     font-weight: bold;
     padding-right: 2em;
+    padding-top: 0em;
     color: #fff;
     cursor: pointer;
 }
@@ -181,13 +182,6 @@ h1 sup {
             clip-path: polygon(0% 0%, 100% 0%, 100% 0%, 0% 0%);
 }
 
-.menu-close-icon {
-    flex: 2 1;
-    display: flex;
-    align-items: flex-end;
-    cursor: pointer;
-}
-
 .menu-copy {
     flex: 4 1;
     display: flex;
@@ -195,7 +189,6 @@ h1 sup {
     justify-content: space-between;
     
 }
-
 
 .menu-preview {
     flex: 4 1;
@@ -210,8 +203,10 @@ h1 sup {
     display: flex;
     position: absolute;
     margin: auto;
-    top: 1em;
-    width: 100vw; /* Stretch the width to cover the entire screen */
+    justify-content: right;
+    top: 2em;
+    right: 4em;
+    width: max-content; /* Stretch the width to cover the entire screen */
   }
   
   .menu-logo,
@@ -286,3 +281,5 @@ h1 sup {
     height: 4em;
     padding-left: 1em;
 }
+
+

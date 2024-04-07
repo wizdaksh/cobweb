@@ -8,6 +8,7 @@ import "./menu.css";
 import {gsap} from "gsap";
 import {useGSAP} from "@gsap/react"
 
+import { Cross as Hamburger } from 'hamburger-react'
 
 const menuLinks = [
     {path: "/", label: "The Nest"}, 
@@ -25,6 +26,7 @@ const Menu = () => {
 
     const toggleMenu = () => {
         setIsMenuOpen(!isMenuOpen);
+        console.log(isMenuOpen);
     };
 
     useGSAP(() => {
@@ -64,21 +66,13 @@ useEffect(() => {
                         <img src="images/spider.png" alt="ReWeb Logo" className="spider-logo"/>
                     </Link>
                 </div>
-                <div className="menu-open" onClick={toggleMenu}>
-                    <p>Menu</p>
+                <div className="menu-open">
+                    <Hamburger toggled={isMenuOpen} toggle={toggleMenu} size={50} distance="lg" color="#fff" label="Show menu" hideOutline={false} className='burger'/>
                 </div>
             </div>
             <div className="menu-overlay">
                 <div className="menu-overlay-bar">
-                    <div className="menu-logo">
-                        <Link href="/" className='company-name'>ReWeb</Link>
-                    </div>
-                    <div className="menu-close" onClick={toggleMenu}>
-                        <p>Close</p>
-                    </div>
-                </div>
-                <div className="menu-close-icon">
-                    <p>&#x2715;</p>
+                    <Hamburger toggled={isMenuOpen} toggle={toggleMenu} size={50} distance="lg" color="#000" label="Close menu" hideOutline={false} className='burger'/>
                 </div>
                 <div className="menu-copy">
                     <div className="menu-links">
