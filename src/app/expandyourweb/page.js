@@ -4,20 +4,12 @@ import './expand.css'
 const page = () => {
     return (
       <section className="stuff">
-        <h1 className="header">
-          Expand Your Web<sup>(02)</sup>
-        </h1>
-        <p className="lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nisi vel aliquam bibendum, nunc nisl tincidunt tellus, ac commodo nisi nisl quis ante.</p>
-        <p className="lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nisi vel aliquam bibendum, nunc nisl tincidunt tellus, ac commodo nisi nisl quis ante.</p>
-        <p className="lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nisi vel aliquam bibendum, nunc nisl tincidunt tellus, ac commodo nisi nisl quis ante.</p>
-        <p className="lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nisi vel aliquam bibendum, nunc nisl tincidunt tellus, ac commodo nisi nisl quis ante.</p>
-        <p className="lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nisi vel aliquam bibendum, nunc nisl tincidunt tellus, ac commodo nisi nisl quis ante.</p>
-        <p className="lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nisi vel aliquam bibendum, nunc nisl tincidunt tellus, ac commodo nisi nisl quis ante.</p>
-        <p className="lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nisi vel aliquam bibendum, nunc nisl tincidunt tellus, ac commodo nisi nisl quis ante.</p>
-        <p className="lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nisi vel aliquam bibendum, nunc nisl tincidunt tellus, ac commodo nisi nisl quis ante.</p>
-        <p className="lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nisi vel aliquam bibendum, nunc nisl tincidunt tellus, ac commodo nisi nisl quis ante.</p>
-        <p className="lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nisi vel aliquam bibendum, nunc nisl tincidunt tellus, ac commodo nisi nisl quis ante.</p>
-        <p className="lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nisi vel aliquam bibendum, nunc nisl tincidunt tellus, ac commodo nisi nisl quis ante.</p>
+        <div className="messages">
+          <h2 className="header">Cyberspace is the realm of oppurtunity.</h2>
+          <p className="lorem">Growing Your Business Isn't Rocket Science, unless you literally build rockets.</p>
+          <p className="lorem">Reweb Studio can spread your work amongst the stars.</p>
+          <p className="lorem">From developing your dream website, creating ads for your audience, to creating meaningful insights with data, we got you covered.</p>
+        </div>
       </section>
     );
   }

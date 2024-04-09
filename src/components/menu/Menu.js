@@ -72,6 +72,7 @@ useEffect(() => {
             </div>
             <div className="menu-overlay">
                 <div className="menu-overlay-bar">
+                    <img src="images/spider.png" alt="ReWeb Logo" className="spider-logo-overlay"/>
                     <Hamburger toggled={isMenuOpen} toggle={toggleMenu} size={50} distance="lg" color="#000" label="Close menu" hideOutline={false} className='burger'/>
                 </div>
                 <div className="menu-copy">
