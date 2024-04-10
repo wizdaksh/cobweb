@@ -1,0 +1,30 @@
+.stuff {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    max-width: max-content;
+}
+
+.messages-engage {
+    position: absolute;
+    display: flex;
+    flex-shrink: 0;
+    flex-direction: column;
+    margin-bottom: 2em;
+    top: 50%;
+    left: 4em;
+}
+
+.messages-engage > .para {
+    max-width: 50vw;
+}
+
+.header-engage {
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+    max-width: 50vw;
+    max-height: min-content;
+    top: 40%;
+    font-size: 3vw;
+}

@@ -1,16 +1,24 @@
-.cluster-container {
-    position: absolute;
-    max-height: 30vw;
-    left: 10em;
-    top: 10em;
-}
-
-h2 {
-    font-size: 6vw;
+.stuff {
     color: white;
+    display: flex;
+    flex-direction: column;
+    max-width: max-content;
 }
 
-.spider-couple {
-    max-width: fit-content;
-    max-width: 50%;
+.messages-cluster {
+    position: absolute;
+    display: flex;
+    flex-shrink: 0;
+    flex-direction: column;
+    margin-bottom: 2em;
+    top: 50%;
+    left: 4em;
+    .header {
+        padding-bottom: 2em;
+    }
+}
+
+.para {
+    max-width: 60vw;
+    padding-bottom: 1em;
 }

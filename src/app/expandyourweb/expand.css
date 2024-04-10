@@ -3,10 +3,23 @@
     flex-direction: column;
 }
 
-.lorem { 
+.messages-expand {
+    max-width: 50vw;
+    position: absolute;
+    right: 8em;
+    top: 50%;
+    text-align: right;
     color: white;
-    padding-top: 580px;
-    padding-left: 170px;
-    padding-right: 170px;
-    text-align: justify;
 }
+
+.messages-expand > .lorem {
+    padding-bottom: 100px;
+}
+
+.header {
+    right: 0;
+    color: white;
+    top: 40%;
+    padding-bottom: 20vh;
+}
+
