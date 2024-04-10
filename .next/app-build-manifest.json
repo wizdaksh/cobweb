@@ -12,11 +12,6 @@
       "static/css/app/layout.css",
       "static/chunks/app/layout.js"
     ],
-    "/ourwebs/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/ourwebs/page.js"
-    ],
     "/expandyourweb/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
@@ -32,6 +27,12 @@
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/thecluster/page.js"
+    ],
+    "/ourwebs/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/ourwebs/page.css",
+      "static/chunks/app/ourwebs/page.js"
     ]
   }
 }

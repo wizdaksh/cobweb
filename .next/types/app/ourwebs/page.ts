@@ -1,4 +1,4 @@
-// File: /Users/slay3r/cobweb/src/app/ourwebs/page.js
+// File: /Users/slay3r/cobweb/src/app/ourwebs/page.jsx
 import * as entry from '../../../../src/app/ourwebs/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 
