@@ -3,10 +3,9 @@
     display: flex;
     flex-direction: column;
     max-width: max-content;
-    height: 5000px;
 }
 
-.messages {
+.messages-our {
     position: absolute;
     display: flex;
     flex-shrink: 0;
@@ -47,3 +46,4 @@
     width: 25vw;
     object-fit: cover;
 }
+

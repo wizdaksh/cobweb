@@ -1,10 +1,9 @@
 "use client";
+
 import React from "react";
 import './ourwebs.css'
 import { useGSAP } from "@gsap/react";
 import gsap from 'gsap';
-
-import Reveal from './Reveal';
 
 const page = () => {
       
@@ -33,7 +32,7 @@ const page = () => {
 
     return (
       <section className="stuff">
-        <div className="messages">
+        <div className="messages-our">
           <h2 id="text" >
             <p className="letter">H</p>
             <p className="letter">e</p>
@@ -59,7 +58,6 @@ const page = () => {
             <p className="letter">e</p>
           </h2>
           <p className="para">There might be a few suprises...</p>
-          <Reveal />
         </div>
       </section>
     );
