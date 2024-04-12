@@ -221,8 +221,8 @@ h1 sup {
 
 .menu-link-item {
     width: max-content;
-    -webkit-clip-path: polygon(0 0, 100% 0, 100% 80%, 0% 80%);
-            clip-path: polygon(0 0, 100% 0, 100% 80%, 0% 80%);
+    -webkit-clip-path: polygon(0 0, 100% 0, 100vw 80%, 0 80%);
+            clip-path: polygon(0 0, 100% 0, 100vw 80%, 0 80%);
 }
 
 .menu-link-item-holder {
@@ -231,7 +231,7 @@ h1 sup {
 
 .menu-link-item-holder a {
     color: #000;
-    font-size: 80px;
+    font-size: 7vw;
     font-weight: 400;
     letter-spacing: -.02em;
     line-height: 130%;
@@ -239,10 +239,28 @@ h1 sup {
 
 .menu-info {
     display: flex;
-    position: absolute;
+    padding-left: 1em;
+    padding-right: 1em;
     bottom: 1em;
+    flex-direction: row;
+    position: absolute;
+    width: 100vw;
     justify-content: space-between;
-    width: 50%;
+}
+
+.menu-info-col {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;   
+}
+
+#socials {
+    padding-right: 4em;
+    text-align: right;
+}
+
+#contacts {
+    text-align: left;
 }
 
 .menu-close-icon p {
@@ -254,13 +272,6 @@ h1 sup {
     left: .25em;
 }
 
-.menu-info-col {
-    flex: 1 1;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;   
-    text-align: right;
-}
 
  
 .menu-close-icon p:hover, 
@@ -297,8 +308,8 @@ h1 sup {
   content: '';
   position: absolute;
   width: 100%;
-  height: 21px;
-  border-radius: 5px;
+  height: 1.75vw;
+  border-radius: 1px;
   background-color: #18272F;
   bottom: 0;
   left: 0;

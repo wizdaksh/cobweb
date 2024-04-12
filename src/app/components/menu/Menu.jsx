@@ -89,14 +89,15 @@ useEffect(() => {
                         ))}
                     </div>
                     <div className="menu-info">
-                        <div className="menu-info-col">
-                            <a href="#">X &#8599;</a>
-                            <a href="#">Instagram &#8599;</a>
-                            <a href="#">LinkedIn &#8599;</a>
-                        </div>
-                        <div className="menu-info-col">
+                        <div className="menu-info-col contacts" id='contacts'>
                             <p>venom@reweb.com</p>
                             <p>571 358 5969</p>
+                        </div>
+                        <div className="menu-info-col" id='socials'>
+                            {/*find new icons for socials*/}
+                            <a href="#">X &#8599;</a>
+                            <a href="https://instagram.com/rewebstudioo">Instagram &#8599;</a>
+                            <a href="#">LinkedIn &#8599;</a>
                         </div>
                     </div>
                 </div>
