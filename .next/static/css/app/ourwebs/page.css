@@ -15,7 +15,7 @@
     flex-direction: column;
     margin-bottom: 2em;
     top: 50%;
-    left: 8em;
+    left: 10vw;
 }
 
 .messages > .para {
