@@ -14,7 +14,7 @@ const page = () => {
         ease: "power1.out"
       }, {
         opacity: 1,
-        delay: 1,
+        delay: 2,
         stagger: 0.1
       })
       

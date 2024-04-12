@@ -1,7 +1,7 @@
 {
-  "/expandyourweb/page": "app/expandyourweb/page.js",
   "/page": "app/page.js",
+  "/expandyourweb/page": "app/expandyourweb/page.js",
+  "/ourwebs/page": "app/ourwebs/page.js",
   "/thecluster/page": "app/thecluster/page.js",
-  "/engage/page": "app/engage/page.js",
-  "/ourwebs/page": "app/ourwebs/page.js"
+  "/engage/page": "app/engage/page.js"
 }
