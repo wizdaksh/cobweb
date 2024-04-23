@@ -18,6 +18,12 @@
       "static/css/app/expandyourweb/page.css",
       "static/chunks/app/expandyourweb/page.js"
     ],
+    "/thecluster/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/thecluster/page.css",
+      "static/chunks/app/thecluster/page.js"
+    ],
     "/ourwebs/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",

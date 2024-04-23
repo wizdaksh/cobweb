@@ -1,9 +1,9 @@
 import React from "react";
 import './expand.css';
+
+
 const Page = () => {
-
-
-
+  
 
     return (
       <section className="stuff">
