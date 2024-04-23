@@ -1,0 +1,99 @@
+/*!******************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[12].use[3]!./src/app/expandyourweb/expand.css ***!
+  \******************************************************************************************************************************************************************************************************************************************************************************/
+.stuff {
+    padding-top: 100px; /* Adjusted for a more reasonable padding */
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Changed from flex-end to center for vertical centering */
+    height: 100vh; /* Adjusted to full viewport height */
+    width: 100vw; /* Adjusted to full viewport width, no need for 150vw */
+    position: relative;
+    overflow-x: hidden; /* Adds overflow handling to prevent scrollbar issues */
+    overflow-y: auto;
+}
+
+.messages-expand {
+    text-align: center;
+    color: white;
+    width: 50%; /* Maintains central content alignment */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.questions-container {
+    text-align: center; /* Ensures text alignment is centered */
+    position: absolute;
+    top: 100%; /* Adjusted for exact vertical centering */
+    left: 50%; /* Maintains horizontal centering */
+    transform: translate(-50%, -50%); /* Perfectly centers container */
+    width: 80%; /* Adjust as needed based on content width */
+    padding: 0; /* Optional: add padding if needed */
+}
+
+.question-item {
+    margin-bottom: 50px; /* Adjust spacing between question items as needed */
+}
+
+.question {
+    font-weight: bold;
+    font-size: 100px;
+    margin-top: 1200px; /* Adjusted space before each question */
+    margin-right: 50em;
+
+}
+
+.Lanswer{
+    font-size: 20px;
+    margin-top: 120px;
+    padding-bottom: 70px;
+}
+
+.answer, .Lanswer, .answer1 {
+    padding-top: 30px;
+    text-align: center; /* Centers the text */
+    max-width: 800px; /* Adjusts maximum width for readability */
+    margin-left: auto;
+    margin-right: auto; /* Auto margins to center the text blocks */
+    width: 100%; /* Ensures width is responsive */
+
+}
+
+.answer{
+    text-align: justify;
+    margin-right: .5em;
+    font-size: 25px;
+}
+
+@keyframes cursor{
+    50% { border-color: transparent}
+}
+
+@keyframes typing{
+    from {width: 0}
+}
+.header {
+    font-size: 90px;
+    color: white;
+    margin: 0; /* Ensures no additional margin */
+}
+
+.lorem, .presence {
+    font-size: 25px; /* Unified font size for consistency */
+    padding-top: 15px;
+    padding-bottom: 20px; /* Adjusts spacing after paragraph */
+}
+
+.presence {
+    padding-bottom: 60px; /* Additional bottom padding for presence */
+}
+
+.Lanswer, .continueBut {
+    font-style: italic; /* Italicizes specific answers and continue button text */
+}
+
+#hamburger-react {
+    font-size: 10px; /* Ensures minimal font size for icons or small elements */
+}
+
+

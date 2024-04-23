@@ -1,0 +1,6 @@
+{
+  "/page": "app/page.js",
+  "/ourwebs/page": "app/ourwebs/page.js",
+  "/expandyourweb/page": "app/expandyourweb/page.js",
+  "/thecluster/page": "app/thecluster/page.js"
+}

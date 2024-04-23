@@ -1,0 +1,52 @@
+.stuff {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    max-width: max-content;
+}
+
+.messages-our {
+    position: absolute;
+    display: flex;
+    flex-shrink: 0;
+    flex-direction: column;
+    margin-bottom: 2em;
+    top: 50%;
+    left: 10vw;
+}
+
+.messages > .para {
+    max-width: 50vw;
+}
+
+#text {
+    text-align: left;
+    padding-bottom: 100px;
+    display: flex;
+    flex-direction: row;
+    max-width: 50vw;
+    max-height: min-content;
+    top: 40%;
+    font-size: 5vw;
+}
+
+.risk-container {
+    height: 50vh;
+    width: 50vw;
+    right: 0;
+    iframe {
+        width: 100%;
+        height: 80%;
+    }
+}
+
+
+.fitting-image {
+    height: 60vh;
+    width: 25vw;
+    object-fit: cover;
+}
+
+.para{
+    font-size: 20px;
+}
