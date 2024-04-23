@@ -1,6 +1,26 @@
 /*!******************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[12].use[3]!./src/app/expandyourweb/expand.css ***!
   \******************************************************************************************************************************************************************************************************************************************************************************/
+.typewriter {
+    overflow: hidden;
+    border-right: 0.15em solid orange;
+    white-space: nowrap;
+    animation: typing 3.5s steps(40, end), blink-caret 0.75s step-end infinite;
+}
+
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+}
+
+@keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: orange; }
+}
+
+
+
+
 .stuff {
     padding-top: 100px; /* Adjusted for a more reasonable padding */
     display: flex;

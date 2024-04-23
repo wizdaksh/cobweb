@@ -17,6 +17,12 @@
       "static/chunks/main-app.js",
       "static/css/app/expandyourweb/page.css",
       "static/chunks/app/expandyourweb/page.js"
+    ],
+    "/ourwebs/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/ourwebs/page.css",
+      "static/chunks/app/ourwebs/page.js"
     ]
   }
 }
